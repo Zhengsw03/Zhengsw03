@@ -48,46 +48,30 @@ An implementation of the RL Token pipeline for the SO-101 arm, connecting VLA fi
 
 面向无人机控制器的测试与部署框架，覆盖 **SITL 仿真、HITL 验证与实机飞行**。
 
-<table>
-  <thead>
-    <tr>
-      <th width="50%">Circle / 圆轨迹</th>
-      <th width="50%">Figure-8 / 8 字轨迹</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <strong>NMPC</strong><br />
-        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/nmpc_circle.gif" width="360" alt="RflyArena NMPC circle trajectory demo" />
-      </td>
-      <td align="center">
-        <strong>NMPC</strong><br />
-        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/nmpc_figure8.gif" width="360" alt="RflyArena NMPC figure-8 trajectory demo" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>PID/SO(3)</strong><br />
-        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/pid_circle.gif" width="360" alt="RflyArena PID/SO(3) circle trajectory demo" />
-      </td>
-      <td align="center">
-        <strong>PID/SO(3)</strong><br />
-        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/pid_figure8.gif" width="360" alt="RflyArena PID/SO(3) figure-8 trajectory demo" />
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <strong>RL</strong><br />
-        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/rl_circle.gif" width="360" alt="RflyArena RL circle trajectory demo" />
-      </td>
-      <td align="center">
-        <strong>RL</strong><br />
-        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/rl_figure8.gif" width="360" alt="RflyArena RL figure-8 trajectory demo" />
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <sub>Circle / 圆轨迹（左） · Figure-8 / 8 字轨迹（右）</sub>
+</p>
+
+#### NMPC
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/nmpc_circle.gif" width="49%" alt="RflyArena NMPC circle trajectory demo" />
+  <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/nmpc_figure8.gif" width="49%" alt="RflyArena NMPC figure-8 trajectory demo" />
+</p>
+
+#### PID/SO(3)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/pid_circle.gif" width="49%" alt="RflyArena PID/SO(3) circle trajectory demo" />
+  <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/pid_figure8.gif" width="49%" alt="RflyArena PID/SO(3) figure-8 trajectory demo" />
+</p>
+
+#### RL
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/rl_circle.gif" width="49%" alt="RflyArena RL circle trajectory demo" />
+  <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/rl_figure8.gif" width="49%" alt="RflyArena RL figure-8 trajectory demo" />
+</p>
 
 ### Workspaces / 工程工作空间
 
