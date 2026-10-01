@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">S.W. Zheng - Robotics and Robot Learning</title>
+  <desc id="desc">A charcoal research banner connecting a robot arm and quadrotor with a mint trajectory. Robotics, robot learning, and autonomous flight.</desc>
+  <defs>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#ffffff" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="artwork"><rect x="744" y="20" width="424" height="236"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="300" rx="6" fill="#151719"/>
+  <rect x="744" width="456" height="256" fill="url(#grid)"/>
+  <path d="M0 256H1200" stroke="#363a3d"/>
+  <rect x="0" y="256" width="6" height="44" fill="#79e2c3"/>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" letter-spacing="0">
+    <text x="48" y="53" fill="#79e2c3" font-size="16" font-weight="600">ROBOTICS / EMBODIED INTELLIGENCE</text>
+    <text x="44" y="139" fill="#f5f6f7" font-size="76" font-weight="700">S.W. Zheng</text>
+    <text x="48" y="188" fill="#d3d6d8" font-size="25">Robot learning. Autonomous flight.</text>
+    <text x="48" y="225" fill="#999fa4" font-size="16">From perception and planning to real-world action.</text>
+  </g>
+
+  <g clip-path="url(#artwork)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M772 206C822 245 930 224 944 162S1007 41 1128 71" stroke="#79e2c3" stroke-width="2" stroke-dasharray="5 8" opacity=".65"/>
+    <path d="M767 232H920" stroke="#555b60" stroke-width="2"/>
+    <g stroke="#eef1f2" stroke-width="7">
+      <path d="M803 224V189L845 135L813 91L857 65"/>
+      <path d="M857 65L878 71M878 71L887 61M878 71L883 85" stroke-width="4"/>
+      <path d="M780 226H827" stroke-width="5"/>
+    </g>
+    <g stroke="#79e2c3" stroke-width="3" fill="#151719">
+      <circle cx="803" cy="189" r="9"/>
+      <circle cx="845" cy="135" r="9"/>
+      <circle cx="813" cy="91" r="8"/>
+      <circle cx="857" cy="65" r="5"/>
+    </g>
+    <g transform="translate(1060 140)">
+      <circle r="79" stroke="#79e2c3" stroke-width="1" opacity=".18"/>
+      <path d="M-98 0H98M0-98V98" stroke="#60666b" opacity=".4"/>
+      <g stroke="#eef1f2" stroke-width="3">
+        <path d="M-35-23L35 23M35-23L-35 23"/>
+        <rect x="-17" y="-10" width="34" height="20" rx="3" fill="#151719"/>
+        <circle cx="-40" cy="-27" r="17"/>
+        <circle cx="40" cy="-27" r="17"/>
+        <circle cx="-40" cy="27" r="17"/>
+        <circle cx="40" cy="27" r="17"/>
+      </g>
+      <circle r="4" fill="#f3a189"/>
+    </g>
+    <circle cx="1128" cy="71" r="4" fill="#f3a189"/>
+  </g>
+
+  <g font-family="Consolas, Menlo, monospace" font-size="14" letter-spacing="0">
+    <text x="48" y="284" fill="#d3d6d8">VLA + RL</text>
+    <text x="194" y="284" fill="#d3d6d8">MOTION PLANNING</text>
+    <text x="425" y="284" fill="#d3d6d8">ROS / PX4</text>
+    <text x="1087" y="284" fill="#79e2c3">03 / SWZ</text>
+  </g>
+</svg>
