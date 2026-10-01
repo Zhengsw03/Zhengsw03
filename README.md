@@ -16,9 +16,14 @@
 ## About / 关于我
 
 关注机器人从 **感知、规划到执行** 的完整链路，也探索如何让学习方法真正落到硬件上。
-目前的公开项目涵盖 **SO-101 机械臂的 VLA + 在线强化学习**，以及 **RflySim 无人机规划与 LiDAR 定位**。
 
 My interests span **robot learning, motion planning, and control**. I work on practical robotics pipelines, from simulation workspaces to learning and deployment on real hardware.
+
+## Honors / 奖项与荣誉
+
+- **RMUA 全国一等奖**
+- **RM AWARD 候选人**
+- **RM AWARD 算法提名奖**
 
 ## Featured / 机械臂学习
 
@@ -38,6 +43,53 @@ An implementation of the RL Token pipeline for the SO-101 arm, connecting VLA fi
 **Python · PyTorch · LeRobot · Vision-Language-Action · Online RL**
 
 ## Aerial Robotics / 自主飞行
+
+### [RflyArena](https://github.com/RflySim/RflyArena)
+
+面向无人机控制器的测试与部署框架，覆盖 **SITL 仿真、HITL 验证与实机飞行**。
+
+<table>
+  <thead>
+    <tr>
+      <th width="50%">Circle / 圆轨迹</th>
+      <th width="50%">Figure-8 / 8 字轨迹</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <strong>NMPC</strong><br />
+        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/nmpc_circle.gif" width="360" alt="RflyArena NMPC circle trajectory demo" />
+      </td>
+      <td align="center">
+        <strong>NMPC</strong><br />
+        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/nmpc_figure8.gif" width="360" alt="RflyArena NMPC figure-8 trajectory demo" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>PID/SO(3)</strong><br />
+        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/pid_circle.gif" width="360" alt="RflyArena PID/SO(3) circle trajectory demo" />
+      </td>
+      <td align="center">
+        <strong>PID/SO(3)</strong><br />
+        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/pid_figure8.gif" width="360" alt="RflyArena PID/SO(3) figure-8 trajectory demo" />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <strong>RL</strong><br />
+        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/rl_circle.gif" width="360" alt="RflyArena RL circle trajectory demo" />
+      </td>
+      <td align="center">
+        <strong>RL</strong><br />
+        <img src="https://raw.githubusercontent.com/RflySim/RflyArena/main/assets/benchmark_gifs/rl_figure8.gif" width="360" alt="RflyArena RL figure-8 trajectory demo" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### Workspaces / 工程工作空间
 
 | Project | Focus |
 | :--- | :--- |
